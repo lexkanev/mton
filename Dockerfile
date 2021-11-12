@@ -28,7 +28,7 @@ RUN apt-get update \
 ARG TINI_VERSION=v0.19.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/local/bin/tini
 
-ADD https://github.com/tontechio/pow-miner-gpu/releases/download/20211108-1/minertools-cuda-ubuntu-18.04-x86-64.tar.gz /opt/
+ADD https://github.com/tontechio/pow-miner-gpu/releases/download/20211112-1/minertools-cuda-ubuntu-18.04-x86-64.tar.gz /opt/
 
 ADD https://newton-blockchain.github.io/global.config.json /opt/
 
