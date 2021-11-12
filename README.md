@@ -1,5 +1,5 @@
 # mton
-#Docker TONCOIN GPU miner (https://github.com/tontechio/pow-miner-gpu).
+Docker TONCOIN GPU miner (https://github.com/tontechio/pow-miner-gpu).
 
 # Install
 docker build -t mton https://github.com/lexkanev/mton.git#main
