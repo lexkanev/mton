@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.4.2-base-ubuntu18.04
+FROM nvidia/cuda:11.4.2-base-ubuntu20.04
 
 LABEL maintainer=lexkanev@gmail.com \
       vendor=no
@@ -34,7 +34,7 @@ ADD https://newton-blockchain.github.io/global.config.json /opt/
 
 RUN apt-get update \
     && cd /opt/ \
-    && tar -xzvf minertools-cuda-ubuntu-18.04-x86-64.tar.gz \
+    && tar -xzvf minertools-cuda-ubuntu-20.04-x86-64.tar.gz \
     && chmod -R +x /opt
 
 RUN rm -rf \
